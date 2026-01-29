@@ -1,12 +1,12 @@
-﻿using CurrencyConvertor.Services.Interfaces;
+﻿using CurrencyConverter.Services.Interfaces;
 
-namespace CurrencyConvertor.Services;
+namespace CurrencyConverter.Services;
 
-public class CurrencyConverter : ICurrencyConvertor
+public class CurrencyRateConverter : ICurrencyRateConverter
 {
     private readonly IExchangeRateProvider _exchangeRateProvider;
 
-    public CurrencyConverter(IExchangeRateProvider exchangeRateProvider)
+    public CurrencyRateConverter(IExchangeRateProvider exchangeRateProvider)
     {
         _exchangeRateProvider = exchangeRateProvider;
     }

@@ -1,4 +1,4 @@
-﻿namespace CurrencyConvertor.Dto;
+﻿namespace CurrencyConverter.Dto;
 
 public class ExchangeConfiguration
 {

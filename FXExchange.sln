@@ -5,11 +5,11 @@ VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConvertor", "src\CurrencyConvertor.csproj", "{9BE66AE5-5EBF-0A74-492D-98EE57BD3B60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverter", "src\CurrencyConverter.csproj", "{9BE66AE5-5EBF-0A74-492D-98EE57BD3B60}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{62047588-6574-43D7-B215-893ABE0D5225}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{62047588-6574-43D7-B215-893ABE0D5225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterTests", "Tests\CurrencyConverterTests\CurrencyConverterTests.csproj", "{25BFAB17-6144-4621-9560-CEE7E5E06587}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterTests", "Tests\CurrencyConverterTests.csproj", "{25BFAB17-6144-4621-9560-CEE7E5E06587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
-﻿using CurrencyConvertor.Dto;
-using CurrencyConvertor.Services.Interfaces;
+﻿using CurrencyConverter.Dto;
+using CurrencyConverter.Services.Interfaces;
 
-namespace CurrencyConvertor.Services;
+namespace CurrencyConverter.Services;
 
 public class ExchangeRateProvider : IExchangeRateProvider
 {
@@ -19,6 +19,4 @@ public class ExchangeRateProvider : IExchangeRateProvider
 
         return _exchangeConfiguration.ExchangeRates[isoCode];
     }
-
-    public bool CurrencyExists(string isoCode) => _exchangeConfiguration.ExchangeRates.ContainsKey(isoCode);
 }

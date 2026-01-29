@@ -1,5 +1,5 @@
-using CurrencyConvertor.Services;
-using CurrencyConvertor.Services.Interfaces;
+using CurrencyConverter.Services;
+using CurrencyConverter.Services.Interfaces;
 using Moq;
 
 namespace CurrencyConverterTests;
@@ -7,12 +7,12 @@ namespace CurrencyConverterTests;
 public class CurrencyConverterTests
 {
     private readonly Mock<IExchangeRateProvider> _mockProvider;
-    private readonly CurrencyConverter _converter;
+    private readonly ICurrencyRateConverter _converter;
 
     public CurrencyConverterTests()
     {
         _mockProvider = new Mock<IExchangeRateProvider>();
-        _converter = new CurrencyConverter(_mockProvider.Object);
+        _converter = new CurrencyRateConverter(_mockProvider.Object);
     }
 
     [Fact]
